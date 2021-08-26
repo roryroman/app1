@@ -1,7 +1,12 @@
 {
-    "azureFunctions.deploySubpath": "api/bin/Release/netcoreapp3.1/publish",
+    "azureFunctions.deploySubpath": "bin/Release/net5.0/publish",
     "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "Rory-Roman"
+    ]
 }
