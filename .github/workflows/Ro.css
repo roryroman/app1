@@ -1,0 +1,158 @@
+body {
+    background-color:navy;
+    color:gold;
+    width: auto;
+    min-width: 400px;
+    min-height:auto;
+    text-align:center;
+}
+img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+	position:absolute;
+	top:30%;
+	left:35%;
+    
+}
+nav ul {
+    list-style-type:none;
+    
+    
+}
+nav li a {
+    color:white;
+    text-decoration:none;
+    background-color:gray;
+    float: left;
+    width: 30%;
+    background-clip: padding-box;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+}
+p {
+    width:100%;
+    text-align: center;
+	position:absolute;
+	top: 60%;
+    
+}
+nav {
+    border-top:3px solid yellow;
+}
+footer p {
+	display:block;
+    border-top:3px solid yellow;
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+}
+footer a {
+    color:white;
+}
+body {
+text-align: center;
+background-color: blue;
+background-image:linear-gradient(navy,blue);
+background-attachment: fixed;
+
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+nav li {
+
+float: left;
+background-color: gray;
+color: yellow;
+border:solid;
+border-width: 3px;
+border-color: transparent;
+background-clip: padding-box;
+list-style-type: none;
+position: relative;
+width: 30%;
+
+
+}
+a:hover {
+width:fit-content;
+}
+
+a {
+text-decoration: underline;
+}
+a:hover  {
+
+background-color: darkgrey;
+width: 100%;    
+
+}
+
+nav li ul  {
+display: none;
+position: absolute;
+top:100%;
+right: 0%;
+}
+nav li:hover > ul  {
+display: block;
+width: 100%;
+
+
+}
+main img {
+width:auto;
+height: 300px;
+}
+body p {
+    padding:10px 30px;
+}
+header ul li {
+    text-align: center;
+}
+h2 {
+text-align: center;
+clear: left;
+}
+footer {
+position:absolute;
+bottom: 70px;
+width:100%;
+border-top: solid;
+border-width: 3px;
+border-color: goldenrod;
+color: white;
+}
+a {
+color:goldenrod;
+width: 100%;
+}
+h1 {
+color: gold;
+font-size: 32px;
+}
+p {
+color:white;
+}
+
+
+@media screen and (max-width: 1320px) {
+    body {
+        width:auto;
+        height: 105%;
+        
+    }
+    p {
+        width: auto;
+    }
+    img {
+        
+        float:left;
+        width: 200px;
+        height: 200px;
+    }
+
+}
