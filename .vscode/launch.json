@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "Open RoryRomanovich.html",
             "file": "c:\\Users\\roryr\\Documents\\GitHub\\app1\\RoryRomanovich.html"
+        },
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:azureFunctions.pickProcess}"
         }
     ]
 }
