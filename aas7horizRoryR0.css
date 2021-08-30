@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'train_oneregular';
+    src: url('trainone-regular-webfont.woff2') format('woff2'),
+         url('trainone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ * {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    body {
+        font-family: 'train_oneregular';
+        text-align: center;
+        background-color: blue;
+        background-image:linear-gradient(navy,blue);
+        height:100%;
+        background-attachment: fixed;
+        background-size: contain;
+        
+    }
+    p{
+        font-size: 16px;
+        color:white;
+    }
+    nav li {
+        
+        display:inline-block;
+        background-color: gray;
+        color: yellow;
+        border:solid;
+        border-width: 3px;
+        border-color: transparent;
+        background-clip: padding-box;
+        list-style-type: none;
+        position: relative;
+        width: 100%;
+
+    
+    }
+    html {
+                font-size: 62.5%;
+            
+            }
+            
+            body{
+                font-size: 1.6em;
+            	text-align:center;
+                width: auto;
+                height: auto;
+
+	        }
+            
+
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            
+            
+            nav a {
+                display: block;
+                color:black;
+                background-color: lightgray;
+                padding: .3em .2em;
+                font-size: 1em;
+                text-decoration: none;
+                text-align: center;
+                background-clip: padding-box;
+                border-style: solid;
+                border-width: 4px;
+                border-color: transparent;
+                
+            }
+           
+        
+            
+            nav ul {
+                display:inline-block;
+                width: auto;
+                padding: 3px;
+            }
+            nav li {
+                float: left;
+                list-style-type: none;
+                padding:0 5px;
+                
+            }
+            h1 {
+             color: goldenrod;
+                
+            }
+            h2 {
+                color: goldenrod;
+                font-size: 30px;
+            }
+
+            nav li ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0%;
+            }
+            
+            nav li:hover > ul {
+                display: block;
+            	z-index: 1;
+	    }
+
+            
+            nav a:hover{
+                background-color: #aaa;
+            }
+            
+            nav li ul {
+                width: 100%;
+            }
+            
+            nav li li a{
+                border-right-style: none;
+                border-top-style: solid;
+            }
+            
+            nav li:hover > ul {
+                display: block;
+            }
+            
+            nav li li ul {
+                position:absolute;
+                top: 0;
+                right:100%;
+            }
+            
+
+            li:hover > a {
+                background-color: #68829E;
+                color: #fff;
+            }
+    
+    a {
+        text-decoration: none;
+    }
+    a:hover  {
+    
+    background-color: darkgrey;    
+    
+    }
+
+    nav li ul  {
+        display: none;
+        position: absolute;
+        top:100%;
+        right: 0%;
+    }
+    nav li:hover > ul  {
+        display: block;
+        
+        
+    }
+    
+    nav li ul li > a:hover {
+        display: block;
+    
+    }
+
+    main img {
+        padding-top: 150px;
+        width:200px;
+        height: 200px;
+        filter: grayscale(70%);
+        position: relative;
+    }
+    img {
+	width: 200px;
+	height: 200px;
+    }
+    body p {
+            padding:10px 30px;
+    }
+    header ul li {
+            text-align: center;
+    }
+    h2 {
+        text-align: center;
+        clear: both;
+    }
+    footer {
+        width: 100%;
+        border-top: solid;
+        border-width: 3px;
+        border-color: goldenrod;
+        color: white;
+    }
+    a {
+        color:goldenrod;
+    }
+    li ul li ul > li a:hover {
+        display: block;
+        position: absolute;
+        top: 0%;
+        right: 100%;
+    }
+    @media screen and (max-width: 1920px) and (min-height: 480px) {
+        footer {
+            position: fixed;
+            bottom: 0%;
+        }
+    }
